@@ -1,0 +1,48 @@
+{
+    "dune 100": {
+        "dataset_name" : "dune",
+        "file_name": "dune",
+		"generate" : "no",
+		"num_topics": 100,
+        "mult": 1,
+        "load": "yes"
+    },
+    "lotr 100": {
+        "dataset_name" : "lotr",
+        "file_name" : "lotr",
+		"generate" : "no",
+		"num_topics": 100,
+        "load": "yes"
+    },
+    "rois 100": {
+        "dataset_name" : "rois",
+        "file_name" : "rois",
+		"generate" : "no",
+		"num_topics": 100,
+        "load": "no"
+    },
+	"HP 100": {
+        "dataset_name" : "HP",
+        "file_name" : "HP",
+		"generate" : "no",
+		"num_topics": 100,
+        "load": "no"
+    },
+    "ASOIAF 100": {
+        "dataset_name" : "ASOIAF",
+        "file_name" : "ASOIAF",
+		"generate" : "no",
+		"num_topics": 100,
+        "load": "no"
+    },
+    "legi 100": {
+        "dataset_name" : "legi",
+        "file_name": "legifrance_full_time",
+        "generate" : "no",
+        "num_topics": 100,
+        "lang": "french",
+        "load": "yes",
+        "source_file": "csv"
+    }    
+}
+
